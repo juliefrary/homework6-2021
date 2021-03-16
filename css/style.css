@@ -117,13 +117,15 @@ header{
     /*Your code here again.*/
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
   }
 
   /*Requirement 10*/
   .nav_links{
     /*Your code here again.*/  
+    display:flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: end;
   }
 
   /*Requirement 11*/
