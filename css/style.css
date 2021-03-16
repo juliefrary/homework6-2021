@@ -91,10 +91,12 @@ header{
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
   /*Your code here.*/
-  0%{
+  from{
+    width: 25px;
     opacity: 0;
   }
-  100%{
+  to{
+    width: 420px;
     opacity: 1;
   }
 }
@@ -103,9 +105,11 @@ header{
   /*Your code here.*/
   from{
     width: 25px;
+    opacity: 0;
   }
   to{
     width: 420px;
+    opacity: 1;
   }
 } 
 
